@@ -1,0 +1,945 @@
+.header {
+    background-image: url('https://static.tildacdn.com/tild3166-3263-4139-a537-383735353634/mertvoe-1200x675-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    margin-bottom: 60px;
+}
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.341);
+    z-index: 1;
+    max-height: 625px;
+}
+h1, h2, h3, h4, p, a, h5, .circle,  .rus-circle {
+    position: relative;
+    z-index: 2;
+
+}
+.navatext{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+.navatext:hover{
+    transform: scale(1.1);
+    color: rgb(124, 124, 124);
+}
+.nav{
+    margin-left: 50px;
+    padding-top:20px ;
+}
+.ar{
+    max-width: 30px;
+    margin-right:15px;
+}
+.aat{
+    margin-left: 420px;
+}
+.num{
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+.txt{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+   
+
+}
+.txt1{
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.txt2{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.txt4{
+
+    display: inline;
+    background-color: rgba(19, 255, 11, 0.562);
+    border-radius: 20px;
+    padding-inline: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: aliceblue;
+    transition: transform 0.3s ease;
+}
+.txt4:hover{
+    font-size:18px ;
+}
+.py{
+    margin-bottom: 40px;
+}
+.tourtxt{
+    text-align: center;
+}
+.oture{
+    margin-inline: 300px;
+    margin-bottom: 50px;
+}
+.pr{
+    display: inline;
+
+}
+.tourtxt1{
+    margin-top: 15px;
+}
+.tourtxt0{
+    text-align: center;
+    margin-top:50px;
+}
+.img1{
+    max-width: 480px;
+    transition: transform 0.3s ease;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.img2{
+    max-width: 565px;
+    transition: transform 0.3s ease;
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img3{
+    max-width: 425px;
+    transition: transform 0.3s ease;
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+
+.container1{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.tour-step {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.step-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e67e22;
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.step-number1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e67e22;
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    padding-inline: 6px;
+}
+.step-number0 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e67e22;
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    padding-inline: 4px;
+}
+.step-number2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e67e22;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+.container2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.price {
+    font-size: 36px;
+    margin: 20px 0;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-item {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://media.istockphoto.com/id/179222215/photo/orange-satin-texture.jpg?s=612x612&w=0&k=20&c=9gh_30LtUX-fta0_ZDAPNUExm7_YypV1XGE12CZtuP0=);
+    border-radius: 50%;
+    position: relative;
+    overflow: visible;
+    margin: 0 auto 10px auto;
+}
+
+.icon img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #333;
+}
+.bottle{
+    max-height: 110px;
+}
+.vip{
+    min-height: 70px;
+}
+.pl{
+    max-height: 100px;
+    margin-top: 15px;
+}
+.tur{
+    max-height: 90px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.obed{
+    max-height: 90px;
+    margin-top: 15px;
+}
+.pled{
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 9px;
+    margin-top: 7px;
+}
+.marg{
+    margin-top: 50px;
+}
+.imgvip{
+    max-width: 400px;
+}
+
+.imgvip2{
+    max-width:555px;
+
+}
+.tr{
+    max-width: 1518px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Расстояние между кругами */
+  }
+
+
+
+  .rus-circle {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 200px;
+    margin-right: 1120px;
+    transition: transform 0.3s ease;
+  }
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ffffff;
+    margin-top: 200px;
+    
+    transition: transform 0.3s ease;
+  }
+.bl{
+    color: black;
+}
+.wh{
+    color: #ffffff;
+}
+.circle:hover{
+    transform: scale(1.1);    
+}
+.rus-circle:hover{
+    transform: scale(1.1);    
+}
+
+
+@media(max-width:1440px){
+    .header {
+        background-image: url('https://static.tildacdn.com/tild3166-3263-4139-a537-383735353634/mertvoe-1200x675-min.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        margin-bottom: 60px;
+    }
+    .header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.341);
+        z-index: 1;
+        max-height: 750px;
+    }
+    .rus-circle {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ffffff;
+        margin-top: 300px;
+        margin-right: 1120px;
+        transition: transform 0.3s ease;
+      }
+      .circle {
+        width: 80px;
+        height: 80px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 300px;
+        
+        transition: transform 0.3s ease;
+    
+      }
+      .img1{
+        max-width: 450px;
+        transition: transform 0.3s ease;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        max-width: 530px;
+        transition: transform 0.3s ease;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        max-width: 395px;
+        transition: transform 0.3s ease;
+    }
+    .img3:hover{
+        transform: scale(1.1);
+    }
+    .imgvip{
+        max-width: 373px;
+    }
+    
+    .imgvip2{
+        max-width:527px;
+    
+    }
+    .tr{
+        max-width: 1440px;
+    }
+}
+@media(max-width:1024px){
+    .header {
+        background-image: url('https://static.tildacdn.com/tild3166-3263-4139-a537-383735353634/mertvoe-1200x675-min.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        margin-bottom: 60px;
+    }
+    .header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.341);
+        z-index: 1;
+        max-height: 702px;
+    }
+    .rus-circle {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ffffff;
+        margin-top: 230px;
+        margin-right: 700px;
+        transition: transform 0.3s ease;
+      }
+      .circle {
+        width: 80px;
+        height: 80px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 230px;
+        
+        transition: transform 0.3s ease;
+    
+      }
+      .img1{
+        max-width: 300px;
+        transition: transform 0.3s ease;
+        margin-left: 50px;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        max-width: 355px;
+        transition: transform 0.3s ease;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        max-width: 270px;
+        transition: transform 0.3s ease;
+    }
+    .img3:hover{
+        transform: scale(1.1);
+    }
+    .imgvip{
+        max-width: 280px;
+        max-height: 280px;
+    }
+    
+    .imgvip2{
+        max-width:371px;
+    
+    }
+    .tr{
+        max-width: 1029px;
+    }
+    .aat{
+        margin-left: 20px;
+    }
+}
+@media(max-width:768px){
+    .header {
+        background-image: url('https://static.tildacdn.com/tild3166-3263-4139-a537-383735353634/mertvoe-1200x675-min.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        margin-bottom: 60px;
+    }
+    .header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.341);
+        z-index: 1;
+        max-height: 528px;
+    }
+    .rus-circle {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ffffff;
+        margin-top: 60px;
+        margin-right: 500px;
+        transition: transform 0.3s ease;
+      }
+      .circle {
+        width: 80px;
+        height: 80px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 60px;
+        
+        transition: transform 0.3s ease;
+    
+      }
+      .img1{
+        max-width: 230px;
+        transition: transform 0.3s ease;
+        margin-left: 30px;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        max-width: 265px;
+        transition: transform 0.3s ease;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        max-width: 200px;
+        transition: transform 0.3s ease;
+    }
+    .img3:hover{
+        transform: scale(1.1);
+    }
+    .imgvip{
+        max-width: 205px;
+    }
+    
+    .imgvip2{
+        max-width:276px;
+    
+    }
+    .tr{
+        max-width: 770px;
+    }
+    .aat{
+        margin-left:190px;
+        margin-top: 30px;
+    }
+    .oture{
+        margin-inline: 150px;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:427px){
+    .header {
+        background-image: url('https://static.tildacdn.com/tild3166-3263-4139-a537-383735353634/mertvoe-1200x675-min.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        margin-bottom: 60px;
+    }
+    .header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.341);
+        z-index: 1;
+        max-height: 528px;
+    }
+    .rus-circle {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ffffff;
+        margin-top: 5px;
+        margin-right: 240px;
+        transition: transform 0.3s ease;
+      }
+      .circle {
+        width: 80px;
+        height: 80px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 5px;
+        
+        transition: transform 0.3s ease;
+    
+      }
+      .img1{
+        max-width: 125px;
+        transition: transform 0.3s ease;
+        margin-left: 10px;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        max-width: 150px;
+        transition: transform 0.3s ease;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        max-width: 115px;
+        transition: transform 0.3s ease;
+    }
+    .img3:hover{
+        transform: scale(1.1);
+    }
+    .imgvip{
+        max-width: 113px;
+    }
+    
+    .imgvip2{
+        max-width:151px;
+    
+    }
+    .tr{
+        max-width: 427px;
+    }
+    .aat{
+        margin-left:0px;
+
+    }
+    .oture{
+        margin-inline: 50px;
+        margin-bottom: 50px;
+    }
+    .txt{
+        margin-top: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+       
+    
+    }
+    .nav{
+        margin-left: 20px;
+        padding-top:20px ;
+    }
+}
+@media(max-width:376px){
+    .header {
+        background-image: url('https://static.tildacdn.com/tild3166-3263-4139-a537-383735353634/mertvoe-1200x675-min.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        margin-bottom: 60px;
+    }
+    .header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.341);
+        z-index: 1;
+        max-height: 528px;
+    }
+    .rus-circle {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ffffff;
+        margin-top: 5px;
+        margin-right: 180px;
+        transition: transform 0.3s ease;
+      }
+      .circle {
+        width: 80px;
+        height: 80px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 5px;
+        
+        transition: transform 0.3s ease;
+    
+      }
+      .img1{
+        max-width: 375px;
+        transition: transform 0.3s ease;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        max-width: 375px;
+        transition: transform 0.3s ease;
+        margin-bottom: 10px;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        max-width: 375px;
+        transition: transform 0.3s ease;
+        margin-bottom: 10px;
+    }
+    .img3:hover{
+        transform: scale(1.1);
+    }
+    .imgvip{
+        min-width: 375px;
+        min-height: 375px;
+    }
+    
+    .imgvip2{
+        max-width:375px;
+    
+    }
+    .tr{
+        max-width: 375px;
+    }
+    .aat{
+        margin-left:50px;
+
+    }
+    .oture{
+        margin-inline: 50px;
+        margin-bottom: 50px;
+    }
+    .txt{
+        margin-top: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+       
+    
+    }
+    .nav{
+        margin-left: 20px;
+        padding-top:20px ;
+    }
+}
+
+@media(max-width:325px){
+    .header {
+        background-image: url('https://static.tildacdn.com/tild3166-3263-4139-a537-383735353634/mertvoe-1200x675-min.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        margin-bottom: 60px;
+        min-width: 375px;
+    }
+    .header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.341);
+        z-index: 1;
+        max-height: 528px;
+        min-width: 375px;
+    }
+    .rus-circle {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ffffff;
+        margin-top: 5px;
+        margin-right: 180px;
+        transition: transform 0.3s ease;
+      }
+      .circle {
+        width: 80px;
+        height: 80px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 5px;
+        
+        transition: transform 0.3s ease;
+    
+      }
+      .img1{
+        max-width: 375px;
+        transition: transform 0.3s ease;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .img1:hover{
+        transform: scale(1.1);
+    }
+    .img2{
+        max-width: 375px;
+        transition: transform 0.3s ease;
+        margin-bottom: 10px;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+    }
+    .img3{
+        max-width: 375px;
+        transition: transform 0.3s ease;
+        margin-bottom: 10px;
+    }
+    .img3:hover{
+        transform: scale(1.1);
+    }
+    .imgvip{
+        min-width: 375px;
+        min-height: 375px;
+    }
+    
+    .imgvip2{
+        max-width:375px;
+    
+    }
+    .tr{
+        max-width: 375px;
+    }
+    .aat{
+        margin-left:50px;
+
+    }
+    .oture{
+        margin-inline: 50px;
+        margin-bottom: 50px;
+    }
+    .txt{
+        margin-top: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+       
+    
+    }
+    .nav{
+        margin-left: 20px;
+        padding-top:20px ;
+    }
+}
+
